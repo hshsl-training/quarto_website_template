@@ -1,0 +1,36 @@
+project:
+  type: website
+  render:
+  - "index.qmd"
+  - "*.Rmd"
+  - "*.md"
+
+website:
+  title: "CDABS Class Title Here"
+  page-footer: "This material is shared under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license."
+ # repo-url: "add URL here"
+  repo-actions: [edit, issue]
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+     # - sidebar:sidebar id - repeat as needed for sidebar entries
+    
+
+  #sidebar:
+   # - id: sidebar id from above
+     # title: "Human readable sidebar section name name"
+     # style: "docked"
+     # background: light
+     # collapse-level: 2
+     # contents:
+     # - "file path, repeat as needed"
+      
+
+format:
+  html:
+    theme: yeti
+    editor: source
+    toc: true
