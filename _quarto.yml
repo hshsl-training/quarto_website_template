@@ -4,14 +4,20 @@ project:
   - "index.qmd"
   - "*.Rmd"
   - "*.md"
+  
 
 website:
   title: "CDABS Class Title Here"
-  page-footer: "This material is shared under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license."
- # repo-url: "add URL here"
+  page-footer:
+    right: |
+      [![](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg){fig-alt="CC BY" width=125px}](https://creativecommons.org/licenses/by-sa/4.0/)
+  # repo-url: "add URL here"
   repo-actions: [edit, issue]
   navbar:
-    background: primary
+    background: "#c5251d"
+    logo: https://www2.hshsl.umaryland.edu/hshsl/bin/img/logo_white@2x.png
+    logo-alt: HSHSL logo
+    logo-href: https://www2.hshsl.umaryland.edu/cdabs/
     search: true
     left:
       - text: "Home"
@@ -31,6 +37,8 @@ website:
 
 format:
   html:
-    theme: yeti
+    theme: 
+    - yeti
+    - custom.scss
     editor: source
     toc: true

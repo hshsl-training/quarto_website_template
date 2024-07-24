@@ -10,7 +10,7 @@ format:
     embed-resources: true
 toc: true
 editor: source
-css: styles.css
+css: styles.scss
 ---
 
 ## Course Description: 
@@ -29,4 +29,4 @@ css: styles.css
 
 
 ## License
-This material is shared under a [CC-BY    4.0](https://creativecommons.org/licenses/by/4.0/) license.
+This work is licensed under a [Creative Commons Attribution 4.0 International License (CC BY)](https://creativecommons.org/licenses/by-sa/4.0/)

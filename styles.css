@@ -1,7 +1,8 @@
 /* css styles */
 .quarto-title-block .quarto-title-banner {
-  padding-left: 15px;
-  padding-top: 60px;
+  background-image: url(https://www2.hshsl.umaryland.edu/hshsl/bin/img/logo_white@2x.png);
+  background-repeat: no-repeat;
+  padding-left: 10px;
   background-origin: content-box;
   
 }
